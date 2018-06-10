@@ -96,6 +96,9 @@ brush.onclick = function(){
   eraserEnabled = false;
   actions.className = 'actions';
 }
+clear.onclick = function(){
+  context.clearRect(0,0,canvas.width,canvas.height);
+}
 
 
 
